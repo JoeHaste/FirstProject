@@ -1,0 +1,68 @@
+{
+    "m-website": [
+        {
+            "title": "MyFlixer",
+            "link": "https://myflixertv.to/",
+            "description": "MyFlixer is a free streaming website where you can watch movies and tv series online with multiple genres highlights such as Action, Comedy, Shooting, Sport, History, Thriller,... MyFlixer updates new HD Movies and Shows Daily so you will never miss your favorite title.",
+            "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/62/a3/c0/62a3c04e-19ae-30fd-78c2-59bacb44a661/AppIcon-1x_U007emarketing-0-10-0-85-220.png/1200x630wa.png"
+        },
+        {
+            "title": "123Movies",
+            "link": "123movies.net",
+            "description": "This is a good replacement for the soap2day site(RIP). A few ads here and there are not such a bother since they offer great content.",
+            "logo": "https://cdn.thelivemirror.com/wp-content/uploads/2019/12/123Movies.jpg"
+        },
+        {
+            "title": "Fmovies",
+            "link": "Fmovies.to",
+            "description": "FMovies - the ultimate online movie streaming website that brings the magic of cinema to your fingertips. With a vast and diverse database, as well as a multitude of exciting features, FMovies offers an unparalleled movie-watching experience for film enthusiasts worldwide.",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/FMovies_Logo.png"
+        },
+        {
+            "title": "Soaper",
+            "link": "https://soaper.tv/",
+            "description": "Just like the name sugests this is the perfect replacement and lookalike to Soap2Day",
+            "logo": "https://soaper.tv/logo.png"
+        }
+    ],
+    "a-website": [
+        {
+            "title": "KickAssAnime",
+            "link": "https://kickassanimes.info/",
+            "description": "KickAssAnime is a popular platform that allows users to watch anime online. It offers a wide range of anime series, movies, and episodes in various genres, providing a convenient way for anime enthusiasts to enjoy their favorite shows.",
+            "logo": "https://kickassanimes.info/logo.png"
+        },
+        {
+            "title": "animepahe",
+            "link": "https://animepahe.com/",
+            "description": "From subbed to dubbed anime it has every tpe of anime you want and a beautiful UI to go along with it",
+            "logo": "https://animepahe.com/app/images/apdoesnthavelogotheysaidapistooplaintheysaid.svg"
+        },
+        {
+            "title": "animension",
+            "link": "https://animension.to/",
+            "description": "Dimension of all things anime",
+            "logo": "https://animension.to/assets/images/logo.png"
+        }
+    ],
+    "g-website": [
+        {
+            "title": "OceanOfGames",
+            "link": "https://oceanofgames.com/",
+            "description": "This is my personal favorite website to get all games,no ads,links always available and has every game out there,very recommended",
+            "logo": "https://oceanofgames.com/wp-content/uploads/2013/08/coollogo_com-236847847.png"
+        },
+        {
+            "title": "Crohasit",
+            "link": "https://crohasit.net/",
+            "description": "Minimal to no ads,very beautiful website with every type of game you can think of",
+            "logo": "https://crohasit.com/wp-content/uploads/2016/06/logo.png"
+        },
+        {
+            "title": "SteamUnlocked",
+            "link": "https://steamunlocked.net/",
+            "description": "Steam Unlocked allows you to download your favorite games pre-installed on steam without the cost.",
+            "logo": "https://steamunlocked.net/wp-content/themes/steamunlocked/img/steam-unlocked-logo.png"
+        }
+    ]
+}
