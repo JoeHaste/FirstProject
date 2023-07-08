@@ -30,8 +30,27 @@ html {
 #card-list2 {
     display: none;
 }
+
 #card-list.active,
 #card-list1.active,
 #card-list2.active{
     display: block;
+}
+
+.cards{
+    padding-bottom: 100%;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: larger;
+}
+
+.special{
+    background-color: darkblue;
+    padding: 10px 15px;
+
+}
+
+.hyperlink{
+    color: aliceblue;
 }
