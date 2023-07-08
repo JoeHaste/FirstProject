@@ -1,0 +1,37 @@
+html {
+    background-color: lightgreen;
+    color: darkblue;
+}
+
+#navbar {
+    background-color: lightgreen;
+    padding: 20px;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#h1 {
+    background-color: lightgreen;
+    color: darkblue;
+    margin-right: 10%;
+}
+
+.buttons {
+    background-color: lightgreen;
+    color: darkblue;
+    border: none;
+    margin-right: 13%;
+    font-size: large;
+}
+
+#card-list,
+#card-list1,
+#card-list2 {
+    display: none;
+}
+#card-list.active,
+#card-list1.active,
+#card-list2.active{
+    display: block;
+}

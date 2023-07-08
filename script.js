@@ -32,7 +32,7 @@ function animecard(anime){
         </p>
     </div>
     `
-    document.getElementById("card-list").appendChild(ani);
+    document.getElementById("card-list1").appendChild(ani);
 }
 
 
@@ -51,23 +51,9 @@ function gamecard(game){
         </p>
     </div>
     `
-    document.getElementById("card-list").appendChild(gaming);
+    document.getElementById("card-list2").appendChild(gaming);
 }
 
-var coll = document.getElementsByClassName("buttons");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
 //fetch request to get movie websites
 function getmovie(){
     fetch("http://localhost:3000/m-website")
@@ -87,4 +73,18 @@ function getgame(){
     .then(games => games.forEach(game => gamecard(game)))
 }
 
+function changedata(parameter){
+    if(parameter==0){
+        document.getElementById("card-list").classList.toggle("active")
+        getmovie()
+    }
+    else if(parameter==1){
+        document.getElementById("card-list2").classList.toggle("active")
+        getgame()
+    }
+    else if(parameter==2){
+        document.getElementById("card-list1").classList.toggle("active")
+        getanime()
+        }
+}
 
