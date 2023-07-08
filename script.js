@@ -1,35 +1,32 @@
-//creating moviecards and presenting them
 function moviescard(film){
-    //creating an element that will store the website details
-    let movies = document.createElement("li");
-    //classname so that it easil customisable
+    let movies = document.createElement("p")
+
     movies.className = "moviescss";
-    //setting contents of html
+
     movies.innerHTML = `
     <div class = "cards" style ="background-image:url(${film.logo});">
         <h2 id="header1">${film.title}</h2>
         <p>${film.description}</p>
-        <p>
-        <a href =${film.link}>access it here</a>
-        </p>
+        <button class="special">
+        <a class="hyperlink" href =${film.link}>access it here</a>
+        </button>
     </div>
     `
     document.getElementById("card-list").appendChild(movies);
 }
 
 function animecard(anime){
-    //creating an element that will store the website details
-    let ani = document.createElement("li");
-    //classname so that it easil customisable
+    let ani = document.createElement("p");
+
     ani.className = "moviescss";
-    //setting contents of html
+
     ani.innerHTML = `
     <div class = "cards" style ="background-image:url(${anime.logo});">
         <h2 id="header1">${anime.title}</h2>
         <p>${anime.description}</p>
-        <p>
-        <a href =${anime.link}>access it here</a>
-        </p>
+        <button class="special">
+        <a class="hyperlink" href =${anime.link}>access it here</a>
+        </button>
     </div>
     `
     document.getElementById("card-list1").appendChild(ani);
@@ -37,17 +34,16 @@ function animecard(anime){
 
 
 function gamecard(game){
-    //creating an element that will store the website details
     let gaming = document.createElement("li");
-    //classname so that it easil customisable
+
     gaming.className = "moviescss";
-    //setting contents of html
+
     gaming.innerHTML = `
     <div class = "cards" style ="background-image:url(${game.logo});">
         <h2 id="header1">${game.title}</h2>
         <p>${game.description}</p>
-        <p>
-        <a href =${game.link}>access it here</a>
+        <button class="special">
+        <a class="hyperlink" href =${game.link}>access it here</a>
         </p>
     </div>
     `
