@@ -52,19 +52,19 @@ function gamecard(game){
 
 //fetch request to get movie websites
 function getmovie(){
-    fetch("http://localhost:3000/m-website")
+    fetch("https://moviecards.onrender.com/m-website")
     .then(res => res.json())
     .then(films => films.forEach(film => moviescard(film)));
 }
 
 function getanime(){
-    fetch("http://localhost:3000/a-website")
+    fetch("https://moviecards.onrender.com/a-website")
     .then(res => res.json())
     .then(animes => animes.forEach(anime => animecard(anime)))
 }
 
 function getgame(){
-    fetch("http://localhost:3000/g-website")
+    fetch("https://moviecards.onrender.com/g-website")
     .then(res => res.json())
     .then(games => games.forEach(game => gamecard(game)))
 }
